@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos DOM</title>
+    <style>
+        body{
+            background-color: rgb(21, 118, 147);
+            color: white;
+            font: normal 16px arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aprendendo uso do <strong>DOM</strong> em Javascript</p>
+    <p>testando qualquer frase</p>
+    <div id="msg">Clique em Min</div></br>
+    <div class="mss">Segundo teste</div></br>
+    <div id="msg2">Terceiro teste</div></br>
+    <script>
+        var p1 = document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerText)
+       
+        var d = document.getElementById('msg') 
+        d.style.background = 'darkgray'
+        
+        var d = document.getElementsByClassName('mss')[0]
+        d.style.background = 'green'
+        
+        var d = window.document.querySelector('div#msg2')
+        d.style.color = 'violet'
+
+        
+        //d.innerText = 'Estou aguardando'
+        //window.document.getElementById('msg').innerText = 'Fala Garoto'
+        //var d = window.document.getElementsByName('msg')[0]
+       // d.innerText = 'Olá!'
+    </script>
+</body>
+</html>
