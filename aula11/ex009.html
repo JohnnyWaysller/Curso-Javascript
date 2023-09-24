@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando Nacionalidade</title>
+    <style>
+        body > input{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Digite o Codigo de seu País <input type="text" id="cod">
+    <input type="button" value="verificar" onclick="verificar()">
+    <p id="res"> Seja bem vindo! </p>
+    <script>
+        function verificar(){
+            vcod=window.document.getElementById('cod')
+            res=window.document.getElementById('res')
+            if (vcod.value=='BR'){
+                res.innerText=` voce é do BRASIL `
+                res.innerText +=`boa viagem`
+            }
+            else{
+                res.innerText += ` voce nao é brasileiro, faça a triagem! `
+            }
+            
+            
+        
+        }
+
+    </script>
+</body>
+</html>
