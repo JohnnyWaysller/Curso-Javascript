@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background: rgba(56, 109, 242, 0.835);
+    font: normal 18px arial;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 10px;
+    width: 450px;
+    height: 315px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(42, 42, 42, 0.485);
+
+}
+div{
+  text-align: center;
+  padding: 8px;  
+}
+footer {
+    font-size: 16px;
+    position: absolute;
+    font-style: italic;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    
+}
+
