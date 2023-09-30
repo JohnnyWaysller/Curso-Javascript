@@ -11,6 +11,13 @@ header {
     color: white;
 }
 
+div > label{
+    padding: 10px;
+}
+section div{
+    padding-top: 20px;
+}
+
 section {
     position: absolute;
     left: 50%;
