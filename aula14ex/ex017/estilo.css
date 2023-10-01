@@ -18,6 +18,12 @@ section div{
     padding-top: 20px;
 }
 
+div > select {
+
+    background-color: rgba(31, 31, 31, 0.155);
+}
+
+
 section {
     position: absolute;
     left: 50%;
