@@ -10,6 +10,28 @@ header {
     text-align: center;
     color: white;
 }
+div#lado1, div#lado2{
+    display: inline-block;
+}
+#lado2{
+    vertical-align: top;
+    width: 320px;
+    height: 282px;
+    padding: 10px;
+    background-color: lightgray;
+    
+}
+.campo {
+    display: inline-block;
+}
+.campo > input{
+    width: 50px;
+}
+.add{
+    display: inline-block;
+    width: 80px;
+}
+
 
 section {
     position: absolute;
